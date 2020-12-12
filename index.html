@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/codestyle.css" />
+        <link rel="icon" href="" />
+        <title>Codely : Learn code !</title>
+        <script src="js/codely.js"></script>
+        <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+    </head>
+
+    <body>
+        <h1 id="big_title">Codely : Learn code</h1><br><br>
+        <aside id="chapters_html">
+            <h2 id="title_html">HTML</h2><br><br>
+            <a class="chapter_html" href="https://fr.wikipedia.org/wiki/HTML5">Chapter 1 : Definition</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/Iu8YpBnhWm4">Chapter 2 : Head</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/RgwEVLoExGQ">Chapter 3 : Body</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/M34IhS0Pfj8">Chapter 4 : Div</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/wXUhTZpF_HQ">Chapter 5 : class, id</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/EuLfUUqoEqU">Chapter 6 : a</a><br><br>
+            <a class="chapter_html" href="https://youtu.be/Pq9DkCt4fqI">Chapter 7 : h1, h2, p</a><br><br>
+            <div id="html" class="invisible">
+                <a class="chapter_html" href="https://youtu.be/09oErCBjVns">Chapter 8 : ol, ul, li</a><br><br>
+                <a class="chapter_html" href="https://youtu.be/E5MEzC0prd4">Chapter 9 : Form</a><br><br>
+                <a class="chapter_html" href="https://youtu.be/GxwHXxumdQk">Chapter 10 : header</a><br><br>
+                <a class="chapter_html" href="https://youtu.be/qlCIXXhSX6Y">Chapter 11 : footer</a><br><br>
+                <a class="chapter_html" href="https://youtu.be/aNJdOk7wv34">Chapter 12 : aside, article</a><br><br>
+            </div>
+            <a onclick="show_html()" id="btn_plus_html"><i class="fi-cnluxl-plus"></i></a>
+            <a onclick="hide_html()" id="btn_minus_html" class="invisible"><i class="fi-ctluxl-minus-thin"></i></a>
+        </aside>
+        <aside id="chapters_js">
+            <h2 id="title_js">JavaScript</h2><br><br>
+            <a class="chapter_js" href="https://fr.wikipedia.org/wiki/JavaScript">Chapter 1 : Definition</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/Mus_vwhTCq0">Chapter 2 : Tips</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/pggJ5s6sTpk">Chapter 3 : Classic model</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/pggJ5s6sTpk?t=97">Chapter 4 : Attribute</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/h4-6JOQX9v4">Chapter 5 : getElementById</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/ChLd2yFp-lA">Chapter 6 : getElement</a><br><br>
+            <a class="chapter_js" href="https://youtu.be/Ka033dkRJi0">Chapter 7 : on...</a><br><br>
+            <div id="js" class="invisible">
+                <a class="chapter_js" href="https://youtu.be/47eM_aXFPGs">Chapter 8 : .style</a><br><br>
+                <a class="chapter_js" href="https://youtu.be/DmHuw9dGYRw">Chapter 9 : Conditions</a><br><br>
+                <a class="chapter_js" href="https://youtu.be/jgt_VqnGPHg">Chapter 10 : loop</a><br><br>
+            </div>
+            <a onclick="show_js()" id="btn_plus_js"><i class="fi-cnluxl-plus"></i></a>
+            <a onclick="hide_js()" id="btn_minus_js" class="invisible"><i class="fi-ctluxl-minus-thin"></i></a>
+        </aside>
+        <aside id="chapters_css">
+            <h2 id="title_css">CSS</h2><br><br>
+            <a class="chapter_css" href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade#CSS3" >Chapter 1 : Definition</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/PE8FQ6zihhw" >Chapter 2 : Tips</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/k1ID41O4FNM" >Chapter 3 : Div</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/PE8FQ6zihhw" >Chapter 4 : colors</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/EM8UlPeBfuk" >Chapter 5 : Selectors</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/OV0bOifr8AE" >Chapter 6 : Background</a><br><br>
+            <a class="chapter_css" href="https://youtu.be/uCJxtO5b7Mw" >Chapter 7 : box-sizing</a><br><br>
+            <div id="css" class="invisible">
+                <a class="chapter_css" href="https://youtu.be/UA1bPCEEo8M" >Chapter 8 : unity</a><br><br>
+                <a class="chapter_css" href="https://youtu.be/JOBlm6kWsMM" >Chapter 9 : Animation</a><br><br>
+                <a class="chapter_css" href="https://youtu.be/-uuk57Tu9ds" >Chapter 10 : font</a><br><br>
+            </div>
+            <a onclick="show_css()" id="btn_plus_css"><i class="fi-cnluxl-plus"></i></a>
+            <a onclick="hide_css()" id="btn_minus_css" class="invisible"><i class="fi-ctluxl-minus-thin"></i></a>
+        </aside>
+        <p class="invisible">Tu as trouvé ce texte ! Bravo à toi tu gagne mon lien <a href="https://github.com/Nestx645">GitHub</a></p>
+    </body>
+
+</html>
