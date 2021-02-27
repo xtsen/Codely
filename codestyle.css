@@ -1,0 +1,140 @@
+/*
+
+===          ===     =============   ===========        ==========    ====      |
+   ===    ===              |         \                  |             |   \     |
+      ====         X       |    T     \ ========  S     ========   E  |    \    |   N
+   ===    ===              |                   /        |             |     \   |
+===          ===           |         =========/   *     ==========    |      ====
+
+2020
+*/
+::selection {
+    color: white;
+    background-color: #5B5B5B;
+}
+.invisible {
+    display: none;
+}
+.visible {
+    display: inline-block;
+}
+body {
+    background: no-repeat url('images/image_fond.jpg' );
+    background-size: cover;
+}
+h1#big_title {
+    margin-left: 38%;
+    text-align: center;
+    background-color: #5B5B5B;
+    width: 20%;
+    padding: 1%;
+    opacity: 0.80 ;
+    color: white;
+    font-size: 250%;
+    border-radius: 5px;
+}
+/*-------------*/
+/* HTML */
+/*-------------*/
+h2#title_html {
+    font-size: 220%;
+    text-align: center;
+    color: cornflowerblue;
+}
+aside#chapters_html{
+    display: inline-table;
+    /*display: inline-block;*/
+    width: 30%;
+    background-color: #1c1a19;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0.5%;
+}
+a.chapter_html{
+    font-size: 200%;
+    text-decoration: underline cornflowerblue;
+    color: white;
+}
+a.chapter_html:hover {
+    color: cornflowerblue;
+}
+/*-------------*/
+/* JavaScript */
+/*-------------*/
+h2#title_js {
+    text-align: center;
+    font-size: 220%;
+    color: darkgoldenrod;
+}
+aside#chapters_js{
+    display: inline-table;
+    width: 30%;
+    background-color: #1c1a19;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0.5%;
+}
+a.chapter_js{
+    font-size: 200%;
+    text-decoration: underline darkgoldenrod;
+    color: white;
+}
+a.chapter_js:hover {
+    color: darkgoldenrod;
+}
+/*-------------*/
+/* CSS */
+/*-------------*/
+h2#title_css {
+    font-size: 220%;
+    text-align: center;
+    color: firebrick;
+}
+aside#chapters_css{
+    display: inline-table;
+    width: 30%;
+    background-color: #1c1a19;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0.5%;
+}
+a.chapter_css{
+    font-size: 200%;
+    text-decoration: underline firebrick;
+    color: white;
+}
+a.chapter_css:hover {
+    color: firebrick;
+}
+/*-------------*/
+/* C */
+/*-------------*/
+h2#title_c {
+    font-size: 220%;
+    text-align: center;
+    color: #0025D3;
+}
+aside#chapters_c{
+    display: inline-table;
+    width: 30%;
+    background-color: #1c1a19;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin: 0.5%;
+}
+a.chapter_c{
+    font-size: 200%;
+    text-decoration: underline #0025D3;
+    color: white;
+}
+a.chapter_c:hover {
+    color: #4767FF ;
+}
