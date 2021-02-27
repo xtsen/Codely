@@ -1,3 +1,13 @@
+/*
+
+===          ===     =============   ===========        ==========    ====      |
+   ===    ===              |         \                  |             |   \     |
+      ====         X       |    T     \ ========  S     ========   E  |    \    |   N
+   ===    ===              |                   /        |             |     \   |
+===          ===           |         =========/   *     ==========    |      ====
+
+2020
+*/
 function hide_html() {
     zone_a_cacher = document.getElementById("html");
     zone_a_cacher.className="invisible";
@@ -46,6 +56,22 @@ function show_js() {
     button = document.getElementById("btn_minus_js");
     button.className="visible";
 }
+function hide_c() {
+    zone_a_cacher = document.getElementById("c");
+    zone_a_cacher.className="invisible";
+    button = document.getElementById("btn_minus_c");
+    button.className="invisible";
+    button = document.getElementById("btn_plus_c");
+    button.className="visible";
+}
+function show_c() {
+    zone_a_montrer = document.getElementById("c");
+    zone_a_montrer.className="visible";
+    button = document.getElementById("btn_plus_c");
+    button.className="invisible";
+    button = document.getElementById("btn_minus_c");
+    button.className="visible";
+}
 
 console.log('Hi ! ')
-console.log('My GitHub : https://github.com/Nestx645')
+console.log('My Linktree : https://linktr.ee/Nestx645')
